@@ -1,0 +1,25 @@
+#field {
+    width:300px;
+    height:300px;
+    border:1px solid;
+}
+.cursor {
+    cursor:url('http://placehold.it/16x16'), auto;
+}
+
+.icheckbox {
+    display:inline-block;
+    width:20px;
+    height:20px;
+    background:#eee;
+}
+
+.icheckbox.checked {
+    background:#aaa;
+}
+
+
+
+
+
+

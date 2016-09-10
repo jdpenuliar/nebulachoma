@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Startup Template Template | PrepBootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
+
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+<div class="page-header">
+    <h1>Startup Template <small>Bootstrap template, demonstrating a startup one-page layout</small></h1>
+</div>
+
+<!-- Startup Template - START -->
+<div id="colordiv">
+    <header class="navbar navbar-inverse bs-docs-nav" role="banner">
+        <div class="container ">
+            <div class="navbar-header">
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand scroll-link" data-id="carousel1">Startup Page</a>
+            </div>
+            <nav class="collapse navbar-collapse bs-navbar-collapse pull-right" role="navigation">
+                <ul class="nav navbar-nav">
+                    <li><a href="#" class="scroll-link" data-id="signup">Sign Up</a></li>
+                    <li><a href="#" class="scroll-link" data-id="whatwedo">What we do</a></li>
+                    <li><a href="#" class="scroll-link" data-id="application">Application Process</a></li>
+                    <li><a href="#" class="scroll-link" data-id="pricing">Pricing</a></li>
+                    <li><a href="#" class="scroll-link" data-id="location">Location</a></li>
+                    <li><a href="#" class="scroll-link" data-id="comments">Comments</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--Carousel-->
+    <div id="carousel1" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel1" data-slide-to="1"></li>
+            <li data-target="#carousel1" data-slide-to="2"></li>
+            <li data-target="#carousel1" data-slide-to="3"></li>
+            <li data-target="#carousel1" data-slide-to="4"></li>
+            <li data-target="#carousel1" data-slide-to="5"></li>
+            <li data-target="#carousel1" data-slide-to="6"></li>
+
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Welcome to our site!</h1>
+                        <p>Take a look around and let us know if you have any questions.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Sign Up</h1>
+                        <p>Use this section to sign up for our newsletter</p>
+                        <p><a href="#" class="btn btn-lg btn-primary scroll-link" data-id="signup" role="button">Sign Up</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Mission</h1>
+                        <p>View additional details abour our company</p>
+                        <p><a href="#" class="btn btn-lg btn-primary scroll-link" data-id="whatwedo" role="button">Company</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Application</h1>
+                        <p>See how the application process works</p>
+                        <p><a href="#" class="btn btn-lg btn-primary scroll-link" data-id="application" role="button">Apply now!</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Pricing</h1>
+                        <p>See additional information on our pricing model</p>
+                        <p><a href="#" class="btn btn-lg btn-primary scroll-link" data-id="pricing" role="button">Prices</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Location</h1>
+                        <p>See where our office is located</p>
+                        <p><a href="#" class="btn btn-lg btn-primary scroll-link" data-id="location" role="button">Location</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Comments</h1>
+                        <p>Leave a comment. We will get back to you shortly!</p>
+                        <p><a href="#" class="btn btn-lg btn-primary scroll-link" data-id="comments" role="button">Comment</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#carousel1" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+        <a class="right carousel-control" href="#carousel1" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div>
+    <!-- /.carousel -->
+
+    <div class="container">
+        <div id="signup" class="page-section">
+            <div class="row">
+                <div class="col-lg-12 text-center v-center">
+                    <h1 class="customheader">Sign Up</h1>
+                    <h3>Enter your email to sign-up for our newsletter</h3>
+                    <br>
+                    <br>
+                    <br>
+                    <form class="col-lg-12">
+                        <div class="input-group" style="width: 340px; text-align: center; margin: 0 auto;">
+                            <input class="form-control input-lg" title="Confidential signup."
+                                placeholder="Enter your email address" type="text">
+                            <span class="input-group-btn">
+                                <button class="btn btn-lg btn-primary" type="button">OK</button></span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="text-center">
+                <h1>Follow us</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center v-center" style="font-size: 39pt;">
+                    <a href="#"><span class="avatar"><i class="fa fa-google-plus"></i></span></a>
+                    <a href="#"><span class="avatar"><i class="fa fa-linkedin"></i></span></a>
+                    <a href="#"><span class="avatar"><i class="fa fa-facebook"></i></span></a>
+                    <a href="#"><span class="avatar"><i class="fa fa-github"></i></span></a>
+                </div>
+
+            </div>
+        </div>
+        <!--/#signup-->
+       
+
+        <div id="whatwedo" class="row">
+            <h1 class="text-center customheader">Company Overview</h1>
+
+            <div class="col-md-4">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h4 class="text-center">Mission</h4>
+                    </div>
+                    <div style="margin: 10px;">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Nam iaculis, neque ac tincidunt mollis, leo eros scelerisque lorem, vel eleifend elit tellus eu turpis. 
+                    Vestibulum a iaculis elit. Proin congue, nulla vitae malesuada ullamcorper, 
+                    purus augue dictum ipsum, et tempus enim libero eget augue. 
+                    Nullam ac ultrices mi, condimentum interdum ante. 
+                    Vivamus ut consectetur augue, sit amet fringilla felis. 
+                    Morbi malesuada diam at risus facilisis vestibulum. 
+                    Donec ipsum sapien, condimentum vitae congue eget, suscipit ac nulla. 
+                    Pellentesque vitae vulputate libero. 
+                    Sed pellentesque, velit eget mollis convallis, risus dui lacinia mi, non euismod metus risus non odio. 
+                    Quisque cursus lectus id sem vehicula, consectetur faucibus eros congue. 
+                    Maecenas condimentum consequat feugiat.
+                    </div>
+                       <div class="panel-footer text-center">
+                        <span class="fa fa-crosshairs bigicon"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h4 class="text-center">Team</h4>
+                    </div>
+                    <div style="margin: 10px;">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Nam iaculis, neque ac tincidunt mollis, leo eros scelerisque lorem, vel eleifend elit tellus eu turpis. 
+                    Vestibulum a iaculis elit. Proin congue, nulla vitae malesuada ullamcorper, 
+                    purus augue dictum ipsum, et tempus enim libero eget augue. 
+                    Nullam ac ultrices mi, condimentum interdum ante. 
+                    Vivamus ut consectetur augue, sit amet fringilla felis. 
+                    Morbi malesuada diam at risus facilisis vestibulum. 
+                    Donec ipsum sapien, condimentum vitae congue eget, suscipit ac nulla. 
+                    Pellentesque vitae vulputate libero. 
+                    Sed pellentesque, velit eget mollis convallis, risus dui lacinia mi, non euismod metus risus non odio. 
+                    Quisque cursus lectus id sem vehicula, consectetur faucibus eros congue. 
+                    Maecenas condimentum consequat feugiat.
+                    </div>
+                    <div class="panel-footer text-center">
+                        <span class="fa fa-users bigicon"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        <h4 class="text-center">Projects</h4>
+                    </div>
+                    <div style="margin: 10px;">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Nam iaculis, neque ac tincidunt mollis, leo eros scelerisque lorem, vel eleifend elit tellus eu turpis. 
+                    Vestibulum a iaculis elit. Proin congue, nulla vitae malesuada ullamcorper, 
+                    purus augue dictum ipsum, et tempus enim libero eget augue. 
+                    Nullam ac ultrices mi, condimentum interdum ante. 
+                    Vivamus ut consectetur augue, sit amet fringilla felis. 
+                    Morbi malesuada diam at risus facilisis vestibulum. 
+                    Donec ipsum sapien, condimentum vitae congue eget, suscipit ac nulla. 
+                    Pellentesque vitae vulputate libero. 
+                    Sed pellentesque, velit eget mollis convallis, risus dui lacinia mi, non euismod metus risus non odio. 
+                    Quisque cursus lectus id sem vehicula, consectetur faucibus eros congue. 
+                    Maecenas condimentum consequat feugiat.
+                    </div>
+                    <div class="panel-footer text-center">
+                        <span class="fa fa-tablet bigicon"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <!--/#whatwedo-->
+
+
+        <div id="application" class="page-section">
+            <h1 class="customheader text-center">Application Process</h1>
+            <div style="margin-top: 100px; margin-bottom: 100px;">
+                <div class="row">
+                    <div class="progress" id="progress1">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+                        </div>
+                        <span class="progress-type">Overall Progress</span>
+                        <span class="progress-completed">20%</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="row step">
+                        <div id="div1" class="col-md-2" onclick="javascript: resetActive(event, 0, 'step-1');">
+                            <span class="fa fa-cloud-download"></span>
+                            <div>Download</div>
+                        </div>
+                        <div class="col-md-2 activestep" onclick="javascript: resetActive(event, 20, 'step-2');">
+                            <span class="fa fa-pencil"></span>
+                            <div>Fill out</div>
+                        </div>
+                        <div class="col-md-2" onclick="javascript: resetActive(event, 40, 'step-3');">
+                            <span class="fa fa-refresh"></span>
+                            <div>Check</div>
+                        </div>
+                        <div class="col-md-2" onclick="javascript: resetActive(event, 60, 'step-4');">
+                            <span class="fa fa-dollar"></span>
+                            <div>Pay Fee</div>
+                        </div>
+                        <div class="col-md-2" onclick="javascript: resetActive(event, 80, 'step-5');">
+                            <span class="fa fa-cloud-upload"></span>
+                            <div>Submit</div>
+                        </div>
+                        <div id="last" class="col-md-2" onclick="javascript: resetActive(event, 100, 'step-6');">
+                            <span class="fa fa-star"></span>
+                            <div>Feedback</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row setup-content step hiddenStepInfo" id="step-1">
+                    <div class="col-xs-12">
+                        <div class="col-md-12 well text-center">
+                            <h1>STEP 1</h1>
+                            <h3 class="underline">Instructions</h3>
+                            Download the application form from our repository.
+                This may require logging in.
+                        </div>
+                    </div>
+                </div>
+                <div class="row setup-content step activeStepInfo" id="step-2">
+                    <div class="col-xs-12">
+                        <div class="col-md-12 well text-center">
+                            <h1>STEP 2</h1>
+                            <h3 class="underline">Instructions</h3>
+                            Fill out the application. 
+                Make sure to leave no empty fields. 
+                        </div>
+                    </div>
+                </div>
+                <div class="row setup-content step hiddenStepInfo" id="step-3">
+                    <div class="col-xs-12">
+                        <div class="col-md-12 well text-center">
+                            <h1>STEP 3</h1>
+                            <h3 class="underline">Instructions</h3>
+                            Check to ensure that all data entered is valid. 
+                        </div>
+                    </div>
+                </div>
+                <div class="row setup-content step hiddenStepInfo" id="step-4">
+                    <div class="col-xs-12">
+                        <div class="col-md-12 well text-center">
+                            <h1>STEP 4</h1>
+                            <h3 class="underline">Instructions</h3>
+                            Pay the application fee. 
+                This can be done either by entering your card details, or by using Paypal.
+                        </div>
+                    </div>
+                </div>
+                <div class="row setup-content step hiddenStepInfo" id="step-5">
+                    <div class="col-xs-12">
+                        <div class="col-md-12 well text-center">
+                            <h1>STEP 5</h1>
+                            <h3 class="underline">Instructions</h3>
+                            Upload the application. 
+                This may require a confirmation email.
+                        </div>
+                    </div>
+                </div>
+                <div class="row setup-content step hiddenStepInfo" id="step-6">
+                    <div class="col-xs-12">
+                        <div class="col-md-12 well text-center">
+                            <h1>STEP 6</h1>
+                            <h3 class="underline">Instructions</h3>
+                            Send us feedback on the overall process. 
+                This step is not obligatory.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--/.container-->
+        </div>
+        <!--/#application-->
+
+       
+
+        <div id="pricing" class="page-section">
+            <h1 class="customheader text-center">Pricing Options</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="text-center">Personal Package</h4>
+                        </div>
+                        <div class="panel-body text-center">
+                            <p class="lead pull-right">
+                                <strong>$10 / month</strong>
+                            </p>
+                        </div>
+                        <ul class="list-group list-group-flush text-center">
+                            <li class="list-group-item">Personal Use
+                        <span class="glyphicon glyphicon-ok pull-right"></span>
+                            </li>
+                            <li class="list-group-item">Single Commercial License
+                        <span class="glyphicon glyphicon-remove pull-right"></span>
+                            </li>
+                            <li class="list-group-item">Multiple site Commercial license
+                        <span class="glyphicon glyphicon-remove pull-right"></span>
+                            </li>
+                            <li class="list-group-item">Technical Support
+                        <span class="glyphicon glyphicon-remove pull-right"></span>
+                            </li>
+                        </ul>
+                        <div class="panel-footer">
+                            <a class="btn btn-lg btn-block btn-default">Purchase</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <h4 class="text-center">Standard commercial package</h4>
+                        </div>
+                        <div class="panel-body text-center">
+                            <p class="lead pull-right">
+                                <strong>$27 / month</strong>
+                            </p>
+                        </div>
+                        <ul class="list-group list-group-flush text-center">
+                            <li class="list-group-item">Personal Use
+                        <span class="glyphicon glyphicon-ok pull-right"></span>
+                            </li>
+                            <li class="list-group-item">Single Commercial License
+                        <span class="glyphicon glyphicon-ok pull-right"></span>
+                            </li>
+                            <li class="list-group-item">Multiple site Commercial license
+                        <span class="glyphicon glyphicon-remove pull-right"></span>
+                            </li>
+                            <li class="list-group-item">Technical Support
+                        <span class="glyphicon glyphicon-ok pull-right"></span>
+                            </li>
+                        </ul>
+                        <div class="panel-footer">
+                            <a class="btn btn-lg btn-block btn-info">Purchase</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h4 class="text-center">Premium commercial package</h4>
+                        </div>
+                        <div class="panel-body text-center">
+                            <p class="lead pull-right">
+                                <strong>$59 / month</strong>
+                            </p>
+                        </div>
+                        <ul class="list-group list-group-flush text-center">
+                            <li class="list-group-item">Personal Use
+                        <span class="glyphicon glyphicon-ok pull-right"></span>
+                            </li>
+                            <li class="list-group-item">Single Commercial License
+                        <span class="glyphicon glyphicon-ok pull-right"></span>
+                            </li>
+                            <li class="list-group-item">Multiple site Commercial license
+                        <span class="glyphicon glyphicon-ok pull-right"></span>
+                            </li>
+                            <li class="list-group-item">Technical Support
+                        <span class="glyphicon glyphicon-ok pull-right"></span>
+                            </li>
+                        </ul>
+                        <div class="panel-footer">
+                            <a class="btn btn-lg btn-block btn-primary">Purchase</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       
+
+        <div id="location">
+            <h1 class="customheader text-center">Office Location</h1>
+            <div class="text-center">
+                <div>1111 Army Navy Drive</div>
+                <div>Arlington</div>
+                <div>VA 22203</div>
+                <div>USA</div>
+            </div>
+            <div class="page-section">
+                <div class="row">
+                    <div id="map-container"></div>
+                </div>
+            </div>
+        </div>
+
+     
+        <div class="container" id="comments">
+            <h1 class="customheader text-center">Submit Comments</h1>
+            <div class="row">
+                <form role="form">
+                    <div>
+                        <div class="well well-sm"><strong><span class="glyphicon glyphicon-asterisk"></span>Required Field</strong></div>
+                        <div class="form-group">
+                            <label for="InputName">Enter Name</label>
+                            <div class="input-group">
+                                <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" required>
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="InputEmail">Enter Email</label>
+                            <div class="input-group">
+                                <input type="email" class="form-control" id="InputEmailFirst" name="InputEmail" placeholder="Enter Email" required>
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="InputEmail">Confirm Email</label>
+                            <div class="input-group">
+                                <input type="email" class="form-control" id="InputEmailSecond" name="InputEmail" placeholder="Confirm Email" required>
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="InputMessage">Enter Message</label>
+                            <div class="input-group">
+                                <textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
+                            </div>
+                        </div>
+                        <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info pull-right">
+                    </div>
+                </form>
+            </div>
+        </div>
+       
+    </div>
+    <br />
+    <br />
+</div>
+
+
+
+<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+<script type="text/javascript">
+
+    jQuery(function ($) {
+        $('.scroll-link').on('click', function (event) {
+            event.preventDefault();
+            var sectionID = $(this).attr("data-id");
+            scrollToID('#' + sectionID, 750);
+        });
+        // scroll to top action
+        $('.scroll-top').on('click', function (event) {
+            event.preventDefault();
+            $('html, body').animate({ scrollTop: 0 }, 'slow');
+        });
+        // mobile nav toggle
+        $('#nav-toggle').on('click', function (event) {
+            event.preventDefault();
+            $('#main-nav').toggleClass("open");
+        });
+
+        // scroll function
+        function scrollToID(id, speed) {
+            var offSet = 50;
+            var targetOffset = $(id).offset().top - offSet;
+            var mainNav = $('#main-nav');
+            $('html,body').animate({ scrollTop: targetOffset }, speed);
+            if (mainNav.hasClass("open")) {
+                mainNav.css("height", "1px").removeClass("in").addClass("collapse");
+                mainNav.removeClass("open");
+            }
+        }
+    });
+
+    //steps module js
+    function resetActive(event, percent, step) {
+        $(".progress-bar").css("width", percent + "%").attr("aria-valuenow", percent);
+        $(".progress-completed").text(percent + "%");
+
+        $("div").each(function () {
+            if ($(this).hasClass("activestep")) {
+                $(this).removeClass("activestep");
+            }
+        });
+
+        if (event.target.className == "col-md-2") {
+            $(event.target).addClass("activestep");
+        }
+        else {
+            $(event.target.parentNode).addClass("activestep");
+        }
+
+        hideSteps();
+        showCurrentStepInfo(step);
+    }
+
+    function hideSteps() {
+        $("div").each(function () {
+            if ($(this).hasClass("activeStepInfo")) {
+                $(this).removeClass("activeStepInfo");
+                $(this).addClass("hiddenStepInfo");
+            }
+        });
+    }
+
+    function showCurrentStepInfo(step) {
+        var id = "#" + step;
+        $(id).addClass("activeStepInfo");
+    }
+    //steps module js
+
+
+    /* google maps -----------------------------------------------------*/
+    function init_map() {
+        var myLocation = new google.maps.LatLng(38.8648771, -77.06386889999999);
+
+        var mapOptions = {
+            center: myLocation,
+            zoom: 17
+        };
+
+        var marker = new google.maps.Marker({
+            position: myLocation,
+            title: "Office Location"
+        });
+
+        var map = new google.maps.Map(document.getElementById("map-container"),
+            mapOptions);
+
+        marker.setMap(map);
+    }
+
+    google.maps.event.addDomListener(window, 'load', init_map);
+    /* end google maps -----------------------------------------------------*/
+
+
+</script>
+
+<style>
+.row {
+margin-left: 5px;
+margin-right: 55px;
+}
+
+#colordiv {
+background-color: rgb(200, 208, 216);
+}
+
+.bgcontainer {    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-bottom:100px;
+}
+
+.navbar-inverse {
+    background-color: #428BCA;
+}
+
+.navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    background-color: #428BCA;
+    border-bottom: 3px solid white;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: #71AB6F;
+}
+
+.dropdown-menu {
+    background-color: #71AB6F;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    background-color: #428BCA;
+}
+
+.navbar-inverse {
+    background-image: none;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    background-image: none;
+}
+
+.navbar-inverse {
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #FFFFFF;
+}
+
+.dropdown-menu > li > a {
+    color: #333333;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav > .dropdown > a .caret {
+    border-top-color: #999999;
+}
+
+.navbar-inverse .navbar-nav > .dropdown > a:hover .caret {
+    border-top-color: #9CFF99;
+}
+
+.navbar-inverse .navbar-nav > .dropdown > a .caret {
+    border-bottom-color: #999999;
+}
+
+.navbar-inverse .navbar-nav > .dropdown > a:hover .caret {
+    border-bottom-color: #9CFF99;
+}
+
+
+*{
+border-radius: 0 !important;
+-moz-border-radius: 0 !important;
+margin: 0;
+padding: 0;
+font-family: 'Helvetica Neue', arial, sans-serif;
+}
+
+.header {    
+    background: #222;
+    z-index: 10;
+}
+
+.header .navbar-brand {
+    font-weight: 900;
+}
+
+.header .navbar {
+    margin: 0;
+    border: none;
+}
+
+.page-section {
+    width: 100%;
+    min-height: 800px;
+    padding: 50px 0;
+}
+
+.page-section h1 {
+    font-size: 4em;
+    margin: 50px 0;
+}
+
+.page-section h1 span {
+    font-weight: 200;
+}
+
+.page-section h2 {
+    font-size: 3em;
+    font-weight: 900;
+    color: #fff;
+    margin: 0 0 30px;
+    text-shadow: 2px 2px 2px #000;
+}
+
+.page-section p {
+    font-size: 1.2em;
+    font-weight: 200;
+    margin: 0 25% 20px 0;
+}
+
+.page-section p.lead {
+    font-size: 1.8em;
+}
+
+.navbar {
+margin-bottom: 0px;
+}
+
+.page-section p.caption {
+    color: #fff;       
+    text-shadow: 1px 1px 1px #000;
+}
+
+.page-section.intro {
+    min-height: 600px;
+}
+
+.btn {
+    font-weight: 200;
+}
+
+.btn-dark {
+    background: #444;
+    color: #fff;
+}
+
+    .btn-dark:hover {
+        background: #000;
+        color: #fff;
+    }
+
+.back-to-top {
+    display: inline-block;
+    clear: both;
+    background: #fff;
+    color: #333;
+    padding: 0 10px 5px;
+    margin: 20px 0 0;
+    text-shadow: none;
+}
+
+.back-to-top:hover {
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+}
+
+hr {
+    border-color: #ddd;
+}
+        
+.signup {
+    margin-top: 140px;
+}
+
+.customheader {
+    color: #428BCA;    
+    margin-top: 20px;
+}
+
+.bigicon {
+    font-size: 47px;
+    color: #428BCA;
+}
+
+.hiddenStepInfo {
+    display: none;
+}
+
+.activeStepInfo {
+    display: block !important;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.step {
+    margin-top: 27px;
+}
+
+.progress {
+    position: relative;
+    height: 25px;
+}
+
+.progress > .progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 800;
+    padding: 3px 30px 2px 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
+.progress > .progress-completed {
+    position: absolute;
+    right: 0px;
+    font-weight: 800;
+    padding: 3px 10px 2px;
+}
+
+.step {
+    text-align: center;
+}
+
+.step .col-md-2 {
+    background-color: #fff;
+    border: 1px solid #C0C0C0;
+    border-right: none;
+}
+
+.step .col-md-2:last-child {
+    border: 1px solid #C0C0C0;
+}
+
+.step .col-md-2:first-child {
+    border-radius: 5px 0 0 5px;
+}
+
+.step .col-md-2:last-child {
+    border-radius: 0 5px 5px 0;
+}
+
+.step .col-md-2:hover {
+    color: #F58723;
+    cursor: pointer;
+}
+
+.step .activestep {
+    color: #F58723;
+    height: 100px;
+    margin-top: -7px;
+    padding-top: 7px;
+    border-left: 6px solid #5CB85C !important;
+    border-right: 6px solid #5CB85C !important;
+    border-top: 3px solid #5CB85C !important;
+    border-bottom: 3px solid #5CB85C !important;
+    vertical-align: central;
+}
+
+.step .fa {
+    padding-top: 15px;
+    font-size: 40px;
+}
+
+#map-container {
+    height: 400px;
+}
+
+#location {
+    height: 700px;
+}
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #7f96ae;
+}
+</style>
+
+<!-- Startup Template - END -->
+
+</div>
+
+</body>
+</html>
